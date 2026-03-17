@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Claude scientific skills from K-Dense Inc",
-    "version": "2.20.0"
+    "version": "2.21.0"
   },
   "plugins": [
     {
@@ -157,7 +157,39 @@
         "./scientific-skills/offer-k-dense-web",
         "./scientific-skills/protocolsio-integration",
         "./scientific-skills/get-available-resources",
-        "./scientific-skills/iso-13485-certification"
+        "./scientific-skills/iso-13485-certification",
+        "./scientific-skills/github",
+        "./scientific-skills/gitlab",
+        "./scientific-skills/notion",
+        "./scientific-skills/asana",
+        "./scientific-skills/elevenlabs",
+        "./scientific-skills/cartesia",
+        "./scientific-skills/agentops",
+        "./scientific-skills/arize",
+        "./scientific-skills/mlflow",
+        "./scientific-skills/phoenix-arize",
+        "./scientific-skills/wandb-weave",
+        "./scientific-skills/freeplay",
+        "./scientific-skills/monocle",
+        "./scientific-skills/mongodb",
+        "./scientific-skills/pinecone",
+        "./scientific-skills/chroma",
+        "./scientific-skills/qdrant",
+        "./scientific-skills/goodmem",
+        "./scientific-skills/daytona",
+        "./scientific-skills/postman",
+        "./scientific-skills/restate",
+        "./scientific-skills/atlassian",
+        "./scientific-skills/linear-app",
+        "./scientific-skills/n8n",
+        "./scientific-skills/stackone",
+        "./scientific-skills/agentmail",
+        "./scientific-skills/mailgun",
+        "./scientific-skills/paypal",
+        "./scientific-skills/stripe",
+        "./scientific-skills/notebooklm",
+        "./scientific-skills/phenoage-levine",
+        "./scientific-skills/bindingdb-database"
       ]
     }
   ]

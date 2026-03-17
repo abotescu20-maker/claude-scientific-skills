@@ -1,0 +1,40 @@
+{
+  "mcpServers": {
+    "opengenes": {
+      "command": "uvx",
+      "args": ["opengenes-mcp"],
+      "description": "OpenGenes longevity database — aging genes, lifespan interventions, longevity associations"
+    },
+    "biothings": {
+      "command": "uvx",
+      "args": ["--from", "biothings-mcp", "stdio"],
+      "description": "BioThings.io APIs — gene/variant/chemical annotation, myvariant.info, mygene.info"
+    },
+    "gget": {
+      "command": "uvx",
+      "args": ["gget-mcp", "stdio"],
+      "description": "gget genomics toolkit — gene info, enrichr pathway analysis, sequence queries"
+    },
+    "synergy-age": {
+      "command": "uvx",
+      "args": ["synergy-age-mcp"],
+      "description": "SynergyAge — synergistic/antagonistic genetic interactions in longevity"
+    },
+    "pharmacology": {
+      "command": "uvx",
+      "args": ["--from", "pharmacology-mcp", "stdio"],
+      "description": "Guide to PHARMACOLOGY — drugs, targets, ligands, interactions"
+    },
+    "able-genetics-rag": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--directory",
+        "/Users/andreibotescu/Desktop/ABLE GENETICS/genetic-rag",
+        "python",
+        "mcp_server.py"
+      ],
+      "description": "ABLE GENETICS RAG — ChromaDB knowledge base cu toate rapoartele si documentele ABLE"
+    }
+  }
+}
